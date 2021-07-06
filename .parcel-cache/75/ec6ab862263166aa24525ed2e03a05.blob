@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="/index.HASH_REF_d75421999f753b5b1b445055212316ea.css">
+  </head>
+  <body>
+    <header class="globalHeader">
+      <input type="text">
+      <button>搜索</button>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+        <li>
+          <div class="site">
+            <div class="logo"></div>
+            <div class="link">bilibili.com</div>
+          </div>
+        </li>
+        <li>
+          <div class="site">
+            <div class="logo">G</div>
+            <div class="link">google.com</div>
+          </div>
+        </li>
+        <li>
+          <div class="addButton">
+            <div class="icon"></div>
+            <div class="text">新增网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script src="//at.alicdn.com/t/font_2651597_61qghpbaamn.js
+    "></script>
+    <script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+  </body>
+</html>

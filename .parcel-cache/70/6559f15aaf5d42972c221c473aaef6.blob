@@ -1,0 +1,9 @@
+$('.addButton').on('click', ()=>{
+    let url = window.prompt('请问你要添加的网址是什么？');
+    /*得到用户输入的网址*/ if (url.indexOf('http') !== 0) url = 'https://' + url;
+    console.log(url);
+    const $siteList = $('.siteList');
+    console.log($siteList);
+    const $lastLi = $siteList.find('li.last');
+    /*找到新增网站之前的最后一个 li*/ const $li = $(`<li>\n        <a href="${url}">\n            <div class="site">\n              <div class="logo">${url[0]}</div>\n              <div class="link">${url}</div>\n            </div>\n          </a>\n        </li>`).insertBefore(lastLi);
+});

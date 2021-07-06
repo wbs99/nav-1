@@ -1,0 +1,97 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* style */
+
+body {
+  background-color: #eee;
+} /*给 body 加一个背景色，浏览器会智能的把颜色扩展到整个网页*/
+.globalHeader {
+  margin: 33px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+.globalHeader > input {
+  width: 100%;
+  margin-right: 10px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.globalHeader > button {
+  white-space: nowrap; /*让搜索两个字不要换行*/
+  padding: 0 24px;
+  border: none;
+  border-radius: 4px; /*写 border 先写 none 或者覆盖掉*/
+  background-color: #1c73cf;
+  color: white;
+  font-size: 16px;
+}
+
+.globalMain {
+}
+.siteList {
+  border: 1px solid black;
+  margin: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.siteList > li {
+  border: 1px solid red;
+}
+.siteList .site {
+  width: 146px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 27px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.siteList .site > .logo {
+  height: 64px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+.siteList .site > .link {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.siteList .addButton {
+  width: 146px;
+  height: 116px;
+}
+
+/*# sourceMappingURL=index.HASH_REF_d75421999f753b5b1b445055212316ea.css.map */

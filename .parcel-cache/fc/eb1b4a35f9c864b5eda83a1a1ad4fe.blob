@@ -1,0 +1,42 @@
+const $siteList = $('.siteList');
+const $lastLi = $siteList.find('li.last')//找到新增网站之前的最后一个 li
+;
+const x = localStorage.getItem('x')//读出 x
+;
+const xObject = JSON.parse(x)//把x变成对象
+;
+const hashMap = xObject || [
+    {
+        logo: 'B',
+        logoType: 'text',
+        url: 'https://www.bilibili.com/'
+    },
+    {
+        logo: 'G',
+        logoType: 'text',
+        url: 'https://www.google.co.jp/'
+    }, 
+];
+const render = ()=>{
+    $siteList.find('li:not(.last)').remove();
+    hashMap.forEach((node)=>{
+        const $li = $(`<li>\n          <a href="${node.url}">\n            <div class="site">\n              <div class="logo">${node.logo[0]}</div>\n              <div class="link">${simplifyUrl(node.url)}</div>\n            </div>\n          </a>\n    </li>`).insertBefore($lastLi);
+    });
+};
+render();
+$('.addButton').on('click', ()=>{
+    let url = window.prompt('请问你要添加的网址是什么？')//得到用户输入的网址
+    ;
+    if (url.indexOf('http') !== 0) url = 'https://' + url;
+    console.log(url);
+    hashMap.push({
+        logo: url[0],
+        logoType: "image",
+        url: url
+    });
+    render();
+});
+window.onbeforeunload = ()=>{
+    const string = JSON.stringify(hashMap);
+    localStorage.setItem('x', string);
+};

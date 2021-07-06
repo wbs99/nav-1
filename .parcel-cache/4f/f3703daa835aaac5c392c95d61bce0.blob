@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="/index.HASH_REF_d75421999f753b5b1b445055212316ea.css">
+    <style>.icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+</style>
+  </head>
+  <body>
+    <header class="globalHeader">
+      <form class="searchForm" method="get" action="https://www.baidu.com/s">
+        <input name="wd" type="text">
+        <button type="submit">搜索</button>
+      </form>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+        <li>
+          <a href="https://www.bilibili.com/">
+            <div class="site">
+              <div class="logo"></div>
+              <div class="link">bilibili.com</div>
+              <img src="/bilibili.HASH_REF_3fddf71b5c5368ccce73908921b6c8a3.png" alt="">
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.google.co.jp/">
+            <div class="site">
+              <div class="logo">G</div>
+              <div class="link">google.com</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <div class="addButton">
+            <div class="iconWrapper">
+              <svg class="icon">
+                <use xlink:href="#icon-add"></use>
+              </svg>
+            </div>
+            <div class="text">新增网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script src="//at.alicdn.com/t/font_2651597_61qghpbaamn.js
+    "></script>
+    <script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+  </body>
+</html>

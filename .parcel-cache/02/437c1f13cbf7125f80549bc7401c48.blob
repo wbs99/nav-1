@@ -1,0 +1,127 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* style */
+
+body {
+  background-color: #eee;
+} /*给 body 加一个背景色，浏览器会智能的把颜色扩展到整个网页*/
+.globalHeader {
+  margin: 33px 27px;
+}
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+}
+.searchForm > input {
+  width: 100%;
+  margin-right: 10px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.searchForm > button {
+  white-space: nowrap; /*让搜索两个字不要换行*/
+  padding: 0 24px;
+  border: none;
+  border-radius: 4px; /*写 border 先写 none 或者覆盖掉*/
+  background-color: #1c73cf;
+  color: white;
+  font-size: 16px;
+}
+
+.globalMain {
+}
+.siteList {
+  margin: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.siteList > li {
+  margin-bottom: 27px;
+}
+.siteList .site {
+  width: 146px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: relative;
+}
+.siteList .site > .close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: none;
+  cursor: default;
+}
+
+.siteList .site > .logo {
+  height: 64px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+.siteList .site > .link {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.siteList .addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 146px;
+  height: 116px;
+  border: 1xp solid #ddd;
+  background-color: white;
+}
+.siteList .addButton .icon {
+  width: 64px;
+  height: 64px;
+}
+.siteList .addButton .text {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.siteList .addButton .iconWrapper {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.HASH_REF_d75421999f753b5b1b445055212316ea.css.map */

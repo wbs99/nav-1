@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="76d74868bf480873460adb8aad1df89c">
+    <style data-parcel-key="614002df12eadc494c36b1d85e72167f">
+      .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="globalHeader">
+      <input type="text">
+      <button>搜索</button>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+        <li>
+          <div class="site">
+            <div class="logo"></div>
+            <div class="link">bilibili.com</div>
+          </div>
+        </li>
+        <li>
+          <div class="site">
+            <div class="logo">G</div>
+            <div class="link">google.com</div>
+          </div>
+        </li>
+        <li>
+          <div class="addButton">
+            <div class="icon">
+              <svg class="icon">
+                <use xlink:href="#icon-xxx"></use>
+              </svg>
+            </div>
+            <div class="text">新增网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script src="0f5465407fdb556a466645b3353eeb11"></script>
+    <script src="67e2e1d839de85b19f58d77aecf7b303"></script>
+  </body>
+</html>
