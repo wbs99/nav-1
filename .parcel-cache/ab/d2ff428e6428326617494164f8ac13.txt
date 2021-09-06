@@ -1,12 +1,16 @@
-12
-27D:\jirengu\nav-1\src\images132700377101772039 1
+16
+29D:\jirengu\nav-1\package.json132700393212379222 0
+27D:\jirengu\nav-1\src\images132700382576357546 1
 21D:\jirengu\nav-1\dist132700382033008234 1
-30D:\jirengu\nav-1\src\style.css132700170792451445 0
-20D:\jirengu\nav-1\src132700377101692258 1
-40D:\jirengu\nav-1\src\images\bilibili.png132699437549242422 0
-40D:\jirengu\nav-1\dist\index.123798cc.css132700382032848670 0
-31D:\jirengu\nav-1\src\index.html132700067432717997 0
+27D:\jirengu\nav-1\.gitignore132700383146622967 0
+26D:\jirengu\nav-1\README.md132700395048578979 0
+33D:\jirengu\nav-1\src\package.json132700392276135299 0
+20D:\jirengu\nav-1\src132700392276135299 1
+31D:\jirengu\nav-1\src\index.html132702682005455889 0
 28D:\jirengu\nav-1\src\main.js132700284317419537 0
+30D:\jirengu\nav-1\src\style.css132700170792451445 0
+40D:\jirengu\nav-1\dist\index.123798cc.css132700382032848670 0
+40D:\jirengu\nav-1\src\images\bilibili.png132699437549242422 0
 44D:\jirengu\nav-1\dist\index.123798cc.css.map132700382032998264 0
 39D:\jirengu\nav-1\dist\index.128b7e94.js132700382032848670 0
 43D:\jirengu\nav-1\dist\index.128b7e94.js.map132700382032998264 0
