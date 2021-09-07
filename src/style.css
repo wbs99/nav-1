@@ -35,14 +35,6 @@ body {
   max-width: 400px;
 }
 
-@media (min-width: 500px) {
-  .searchForm {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 .searchForm > input {
   width: 100%;
   margin-right: 10px;
@@ -75,6 +67,11 @@ body {
 }
 
 @media (min-width: 500px) {
+  .searchForm {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .siteList {
     margin-left: auto;
     margin-right: auto;
@@ -87,18 +84,15 @@ body {
   .globalMain {
     margin-top: 100px;
   }
+  .siteList > li {
+    margin-right: 17.5px;
+  }
 }
 .siteList > .last {
   cursor: pointer;
 }
 .siteList > li {
   margin-bottom: 27px;
-}
-
-@media (min-width: 500px) {
-  .siteList > li {
-    margin-right: 17.5px;
-  }
 }
 
 .siteList .site {
@@ -116,8 +110,9 @@ body {
 }
 .siteList .site > .close {
   position: absolute;
-  right: 10px;
-  top: 5px;
+  font-size: 1.5em;
+  right: 8px;
+  top: 2px;
   display: none;
   cursor: pointer;
 }
