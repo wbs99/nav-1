@@ -7,7 +7,7 @@
 ```
 
 
-#  build 命令
+#  yarn build 一键发布
 
 
 ```
